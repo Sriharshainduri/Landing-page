@@ -1,4 +1,4 @@
-# Landing-page
+# Landing-page.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,3 +50,97 @@
   </footer>
 </body>
 </html>
+
+
+
+
+#Landing page.css
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #e20faa;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .service-box {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  .service-box h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .services-container {
+      flex-direction: column;
+    }
+  
+    .service-box {
+      width: 100%;
+    }
+  }
+  
